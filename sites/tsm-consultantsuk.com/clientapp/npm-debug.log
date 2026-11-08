@@ -1,0 +1,59 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'nodejs', '/usr/bin/npm', 'install', 'node-less' ]
+2 info using npm@1.1.44
+3 info using node@v0.8.3
+4 verbose config file /home/aswin/.npmrc
+5 verbose config file /usr/etc/npmrc
+6 verbose config file /usr/lib/nodejs/npm/npmrc
+7 verbose read json /media/ubuntu-data/DATA/Projects/TSM-Drupal/public_html/sites/tsm-consultantsuk.com/clientapp/package.json
+8 verbose read json /media/ubuntu-data/DATA/Projects/TSM-Drupal/public_html/sites/tsm-consultantsuk.com/clientapp/node_modules/less/package.json
+9 verbose read json /media/ubuntu-data/DATA/Projects/TSM-Drupal/public_html/sites/tsm-consultantsuk.com/clientapp/package.json
+10 verbose cache add [ 'node-less', null ]
+11 silly cache add name=undefined spec="node-less" args=["node-less",null]
+12 verbose parsed url { pathname: 'node-less', path: 'node-less', href: 'node-less' }
+13 silly lockFile 7dbb13d2-node-less node-less
+14 verbose lock node-less /home/aswin/.npm/7dbb13d2-node-less.lock
+15 silly lockFile 7dbb13d2-node-less node-less
+16 verbose addNamed [ 'node-less', '' ]
+17 verbose addNamed [ null, '' ]
+18 silly lockFile ee4e28be-node-less node-less@
+19 verbose lock node-less@ /home/aswin/.npm/ee4e28be-node-less.lock
+20 silly addNameRange { name: 'node-less', range: '', hasData: false }
+21 verbose url raw node-less
+22 verbose url resolving [ 'https://registry.npmjs.org/', './node-less' ]
+23 verbose url resolved https://registry.npmjs.org/node-less
+24 info retry registry request attempt 1 at 13:59:41
+25 http GET https://registry.npmjs.org/node-less
+26 http 404 https://registry.npmjs.org/node-less
+27 silly registry.get cb [ 404,
+27 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+27 silly registry.get     date: 'Wed, 25 Jul 2012 12:59:43 GMT',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'content-length': '52',
+27 silly registry.get     'cache-control': 'must-revalidate' } ]
+28 silly lockFile ee4e28be-node-less node-less@
+29 error 404 'node-less' is not in the npm registry.
+29 error 404 You should bug the author to publish it
+29 error 404
+29 error 404 Maybe try 'npm search less'
+29 error 404
+29 error 404 Note that you can also install from a
+29 error 404 tarball, folder, or http url, or git url.
+30 error System Linux 3.2.0-27-generic-pae
+31 error command "nodejs" "/usr/bin/npm" "install" "node-less"
+32 error cwd /media/ubuntu-data/DATA/Projects/TSM-Drupal/public_html/sites/tsm-consultantsuk.com/clientapp
+33 error node -v v0.8.3
+34 error npm -v 1.1.44
+35 error code E404
+36 error stack Error: 404 Not Found: node-less
+36 error stack     at RegClient.<anonymous> (/usr/lib/nodejs/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+36 error stack     at Request.init.self.callback (/usr/lib/nodejs/npm/node_modules/request/main.js:120:22)
+36 error stack     at Request.EventEmitter.emit (events.js:91:17)
+36 error stack     at Request.<anonymous> (/usr/lib/nodejs/npm/node_modules/request/main.js:555:16)
+36 error stack     at Request.EventEmitter.emit (events.js:88:17)
+36 error stack     at IncomingMessage.Request.start.self.req.self.httpModule.request.buffer (/usr/lib/nodejs/npm/node_modules/request/main.js:517:14)
+36 error stack     at IncomingMessage.EventEmitter.emit (events.js:115:20)
+36 error stack     at IncomingMessage._emitEnd (http.js:366:10)
+36 error stack     at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)
+36 error stack     at CleartextStream.socketOnData (http.js:1356:20)
+37 verbose exit [ 1, true ]
